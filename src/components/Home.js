@@ -5,7 +5,7 @@ import profilePic from '../assets/ashok - Copy.jpeg'; // Make sure to replace th
 function Home() {
     const handleDownloadResume = () => {
         // Replace 'resume.pdf' with the actual name of your PDF resume file
-        const resumeUrl = process.env.PUBLIC_URL + '/Ashok12_4_24.pdf';
+        const resumeUrl = process.env.PUBLIC_URL + '/Ashok_Resume06_24.pdf';
         window.open(resumeUrl);
       };
   return (
